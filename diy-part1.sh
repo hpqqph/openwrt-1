@@ -68,7 +68,7 @@ git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci
 #git clone https://github.com/xiaorouji/openwrt-passwall2.git package/openwrt-passwall2
 
 #bypass
-git clone https://github.com/kiddin9/openwrt-bypass/tree/main/luci-app-bypass package/luci-app-bypass
+git clone https://github.com/kiddin9/openwrt-bypass/luci-app-bypass.git package/luci-app-bypass
 
 #helloword
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
@@ -93,7 +93,7 @@ svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-fileassistant 
 # 网络
 
 # 网络测速
-svn co https://github.com/kiddin9/openwrt-packages/trunk/master/luci-app-netspeedtest package/luci-app-netspeedtest
+git clone https://github.com/kiddin9/openwrt-packages/luci-app-netspeedtest.git package/luci-app-netspeedtest
 
 #Turbo ACC 加速 lede包已有
 
