@@ -68,7 +68,7 @@ git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci
 #git clone https://github.com/xiaorouji/openwrt-passwall2.git package/openwrt-passwall2
 
 #bypass
-svn co https://github.com/kiddin9/openwrt-bypass/trunk/main/luci-app-bypass package/luci-app-bypass
+git clone https://github.com/kiddin9/openwrt-bypass/trunk/main/luci-app-bypass package/luci-app-bypass
 
 #helloword
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
